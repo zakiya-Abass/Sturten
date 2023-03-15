@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display:  flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+ul li a{
+    color: red;
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+li a ::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: blue;
+}
+li a :hover ::after{
+    color: green;
+    width: 100px;
+    
+}
+main{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-left{
+    margin: 0 20px;
+    width: 30%;
+
+
+}
+main h1{
+    font-size: 25px;
+    color: blue;
+    text-transform: capitalize;
+    line-height: 50px;
+
+
+}
+main h2{
+    font-size: 15px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+.city{
+    background-color:cadetblue;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+main p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 30px;
+
+}
+
+.img{
+    max-width: 670px;
+    height: auto; 
+
+}.testimonial {
+    margin-bottom: 40px;
+  }
+  .testimonials .container {
+    padding: 50px 0;
+  }
+    
